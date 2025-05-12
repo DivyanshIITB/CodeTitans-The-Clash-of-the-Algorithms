@@ -9,7 +9,6 @@ Welcome to **CodeTitans**, a structured and rigorous 8-week journey through **Da
 ## 📌 Project Objective
 
 This project aims to build a strong foundational understanding of DSA with a focus on:
-- Interview preparedness
 - Competitive programming
 - Problem-solving intuition
 - Efficient coding practices
