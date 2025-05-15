@@ -17,15 +17,15 @@ This project aims to build a strong foundational understanding of DSA with a foc
 
 ## 🛠️ Topics Covered
 
-### Week 1: **Linked Lists**
-- Types: Singly, Doubly, Circular
-- Cycle Detection, Reversal, Merging
-- Fast and Slow Pointer Techniques
-
-### Week 2: **Stacks, Queues & Priority Queues**
+### Week 1: **Stacks, Queues & Priority Queues**
 - Stack/Queue via Arrays & Linked Lists
 - Applications: Balanced Parentheses, NGE
 - Monotonic Stack/Queue, Circular Queue, Deque, Heap
+
+### Week 2: **Linked Lists**
+- Types: Singly, Doubly, Circular
+- Cycle Detection, Reversal, Merging
+- Fast and Slow Pointer Techniques
 
 ### Week 3: **Time & Space Complexity, Hashing, Strings**
 - Big O Analysis
