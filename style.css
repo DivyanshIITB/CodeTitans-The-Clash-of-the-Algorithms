@@ -18,7 +18,9 @@ h1 {
 h2 {
   margin-top: 1rem;
   margin-bottom: 2rem;
-  color: #36454F; /* Example: Gold color */
+  color: #36454F; 
+  cursor: pointer;
+  user-select: none;
 }
 
 table {
