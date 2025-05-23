@@ -18,6 +18,7 @@ h1 {
 h2 {
   margin-top: 1rem;
   margin-bottom: 2rem;
+  color: #36454F; /* Example: Gold color */
 }
 
 table {
@@ -37,6 +38,11 @@ td {
   border: 1px solid white;
   padding: 1rem;
   text-align: center;
+}
+
+.resource-link {
+  color: #ffcb47; /* Gold color as an example */
+  font-weight: bold;
 }
 
 a {
