@@ -4,101 +4,79 @@
   <meta charset="UTF-8" />
   <title>CodeTitans: The Clash of The Algorithms</title>
   <link rel="stylesheet" href="style.css" />
+  <style>
+    h2 {
+      margin-top: 1rem;
+      margin-bottom: 2rem;
+      color: #36454F;
+      cursor: pointer;
+      user-select: none;
+    }
+  </style>
 </head>
 <body>
   <h1>CodeTitans: The Clash of The Algorithms!</h1>
 
-<section>
-    <h2 id="week1-heading" onclick="toggleWeek('week1-content')">
+  <section>
+    <h2 id="week1-heading" onclick="toggleWeek('week1-full-content')">
       Week 1: Stacks and Queues + Priority Queues
     </h2>
 
-    <div id="week1-content" class="week-content" style="display: none;">
-      <button>Stack</button>
-      <button>Queue</button>
-      <button>Priority Queue</button>
-    
-      <button>Ques 1</button>
-      <button>Ques 2</button>
-      <button>Ques 3</button>
-      <button>Ques 4</button>
-      <button>Ques 5</button>
-      <button>Ques 6</button>
-      <button>Ques 7</button>
-      <button>Ques 8</button>
-      <button>Ques 9</button>
-      <button>Ques 10</button>
-      <button>Ques 11</button>
-      <button>Ques 12</button>
-      <button>Ques 13</button>
-      <button>Ques 14</button>
+    <div id="week1-full-content" style="display: none;">
+      <div id="week1-content" class="week-content">
+        <button>Stack</button>
+        <button>Queue</button>
+        <button>Priority Queue</button>
+
+        <button>Ques 1</button>
+        <button>Ques 2</button>
+        <button>Ques 3</button>
+        <button>Ques 4</button>
+        <button>Ques 5</button>
+        <button>Ques 6</button>
+        <button>Ques 7</button>
+        <button>Ques 8</button>
+        <button>Ques 9</button>
+        <button>Ques 10</button>
+        <button>Ques 11</button>
+        <button>Ques 12</button>
+        <button>Ques 13</button>
+        <button>Ques 14</button>
+      </div>
+
+      <table>
+        <tr>
+          <td><a class="resource-link" href="https://www.youtube.com/watch?v=0X-fv-1i-r9c&pp=ygUjc3RhY2tzIGFuZCBxdWV1ZXMgYWxvZg%3D%3D">Stack</a></td>
+        </tr>
+        <tr>
+          <td><a class="resource-link" href="https://www.youtube.com/watch?v=Hfn6V67Ya30&pp=ygUjc3RhY2tzIGFuZCBxdWV1ZXMgYWxvZg%3D%3D">Queue</a></td>
+        </tr>
+        <tr>
+          <td><a class="resource-link" href="https://www.youtube.com/watch?v=rHXFZqXqc9c&pp=ygUeUHQgb3JkZXJlZCBxdWV1ZXMgcHJpb3JpdHk%3D">Priority Queue</a></td>
+        </tr>
+        <tr><td><a href="https://leetcode.com/problems/two-sum/description/?envType=problem-list-v2&envId=array">Ques 1</a></td></tr>
+        <tr><td><a href="https://leetcode.com/problems/move-zeroes/description/?envType=problem-list-v2&envId=array">Ques 2</a></td></tr>
+        <tr><td><a href="https://leetcode.com/problems/toeplitz-matrix/description/?envType=problem-list-v2&envId=matrix">Ques 3</a></td></tr>
+        <tr><td><a href="https://leetcode.com/problems/set-matrix-zeroes/description/?envType=problem-list-v2&envId=matrix">Ques 4</a></td></tr>
+        <tr><td><a href="https://leetcode.com/problems/valid-parentheses?envType=problem-list-v2&envId=2b0wsx8c">Ques 5</a></td></tr>
+        <tr><td><a href="https://leetcode.com/problems/next-greater-element-i?envType=problem-list-v2&envId=2b0wsx8c">Ques 6</a></td></tr>
+        <tr><td><a href="https://leetcode.com/problems/evaluate-reverse-polish-notation/description/?envType=problem-list-v2&envId=array">Ques 7</a></td></tr>
+        <tr><td><a href="https://leetcode.com/problems/implement-stack-using-queues?envType=problem-list-v2&envId=2b0wsx8c">Ques 8</a></td></tr>
+        <tr><td><a href="https://leetcode.com/problems/design-circular-queue?envType=problem-list-v2&envId=2b0wsx8c">Ques 9</a></td></tr>
+        <tr><td><a href="https://www.geeksforgeeks.org/stack-set-3-reverse-string-using-stack/">Ques 10</a></td></tr>
+        <tr><td><a href="https://leetcode.com/problems/kth-largest-element-in-an-array?envType=problem-list-v2&envId=2b0wsx8c">Ques 11</a></td></tr>
+        <tr><td><a href="https://leetcode.com/problems/sort-characters-by-frequency?envType=problem-list-v2&envId=2b0wsx8c">Ques 12</a></td></tr>
+        <tr><td><a href="https://leetcode.com/problems/last-stone-weight?envType=problem-list-v2&envId=2b0wsx8c">Ques 13</a></td></tr>
+        <tr><td><a href="https://leetcode.com/problems/minimum-string-length-after-removing-substrings?envType=problem-list-v2&envId=2b0wsx8c">Ques 14</a></td></tr>
+      </table>
     </div>
-    <table>
-      <tr>
-        <td><a class="resource-link" href="https://www.youtube.com/watch?v=0X-fv-1i-r9c&pp=ygUjc3RhY2tzIGFuZCBxdWV1ZXMgYWxvZg%3D%3D">Stack</a></td>
-      </tr>
-      <tr>
-        <td><a class="resource-link" href="https://www.youtube.com/watch?v=Hfn6V67Ya30&pp=ygUjc3RhY2tzIGFuZCBxdWV1ZXMgYWxvZg%3D%3D">Queue</a></td>
-      </tr>
-      <tr>
-        <td><a class="resource-link" href="https://www.youtube.com/watch?v=rHXFZqXqc9c&pp=ygUeUHQgb3JkZXJlZCBxdWV1ZXMgcHJpb3JpdHk%3D">Priority Queue</a></td>
-      </tr>
-      <tr>
-        <td><a href="https://leetcode.com/problems/two-sum/description/?envType=problem-list-v2&envId=array">Ques 1</a></td>
-      </tr>
-      <tr>
-        <td><a href="https://leetcode.com/problems/move-zeroes/description/?envType=problem-list-v2&envId=array">Ques 2</a></td>
-      </tr>
-      <tr>
-        <td><a href="https://leetcode.com/problems/toeplitz-matrix/description/?envType=problem-list-v2&envId=matrix">Ques 3</a></td>
-      </tr>
-      <tr>
-        <td><a href="https://leetcode.com/problems/set-matrix-zeroes/description/?envType=problem-list-v2&envId=matrix">Ques 4</a></td>
-      </tr>
-      <tr>
-        <td><a href="https://leetcode.com/problems/valid-parentheses?envType=problem-list-v2&envId=2b0wsx8c">Ques 5</a></td>
-      </tr>
-      <tr>
-        <td><a href="https://leetcode.com/problems/next-greater-element-i?envType=problem-list-v2&envId=2b0wsx8c">Ques 6</a></td>
-      </tr>
-      <tr>
-        <td><a href="https://leetcode.com/problems/evaluate-reverse-polish-notation/description/?envType=problem-list-v2&envId=array">Ques 7</a></td>
-      </tr>
-      <tr>
-      <td><a href="https://leetcode.com/problems/implement-stack-using-queues?envType=problem-list-v2&envId=2b0wsx8c">Ques 8</a></td>
-      </tr>
-      <tr>
-        <td><a href="https://leetcode.com/problems/design-circular-queue?envType=problem-list-v2&envId=2b0wsx8c">Ques 9</a></td>
-      </tr>
-      <tr>
-      <td><a href="https://www.geeksforgeeks.org/stack-set-3-reverse-string-using-stack/">Ques 10</a></td>
-      </tr>
-      <tr>
-        <td><a href="https://leetcode.com/problems/kth-largest-element-in-an-array?envType=problem-list-v2&envId=2b0wsx8c">Ques 11</a></td>
-      </tr>
-      <tr>
-        <td><a href="https://leetcode.com/problems/sort-characters-by-frequency?envType=problem-list-v2&envId=2b0wsx8c">Ques 12</a></td>
-      </tr>
-      <tr>
-        <td><a href="https://leetcode.com/problems/last-stone-weight?envType=problem-list-v2&envId=2b0wsx8c">Ques 13</a></td>
-      </tr>
-      <tr>
-        <td><a href="https://leetcode.com/problems/minimum-string-length-after-removing-substrings?envType=problem-list-v2&envId=2b0wsx8c">Ques 14</a></td>
-      </tr>
-    </table>
   </section>
 
-  <!-- Copy-paste for more lectures -->
-<script>
-  function toggleWeek(contentId) {
-    const content = document.getElementById(contentId);
-    if (content.style.display === "none") {
-      content.style.display = "block";
-    } else {
-      content.style.display = "none";
+  <script>
+    function toggleWeek(contentId) {
+      const content = document.getElementById(contentId);
+      content.style.display = content.style.display === "none" ? "block" : "none";
     }
-  }
-</script>
-
+  </script>
 </body>
 </html>
