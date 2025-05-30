@@ -22,15 +22,15 @@ This project aims to build a strong foundational understanding of DSA with a foc
 - Applications: Balanced Parentheses, NGE
 - Monotonic Stack/Queue, Circular Queue, Deque, Heap
 
-### Week 2: **Linked Lists**
-- Types: Singly, Doubly, Circular
-- Cycle Detection, Reversal, Merging
-- Fast and Slow Pointer Techniques
-
-### Week 3: **Time & Space Complexity, Hashing, Strings**
+### Week 2: **Time & Space Complexity, Hashing, Strings**
 - Big O Analysis
 - HashMaps, HashTables, Frequency Counters
 - String Problems: Anagrams, Palindromes, Pattern Matching
+
+### Week 3: **Linked Lists**
+- Types: Singly, Doubly, Circular
+- Cycle Detection, Reversal, Merging
+- Fast and Slow Pointer Techniques
 
 ### Week 4: **Recursion, Backtracking & Searching**
 - Tail vs Head Recursion
